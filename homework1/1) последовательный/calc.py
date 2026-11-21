@@ -1,1 +1,15 @@
+x = int(input('Введите первое число: '))
+op = input('Введите знак операции: ')
+y = int(input('Введите второе число: '))
 
+print('Ответ:', end=' ')
+if op == '+':
+    print(x + y)
+elif op == '-':
+    print(x - y)
+elif op == '*':
+    print(x * y)
+elif op == '/':
+    print(x / y)
+else:
+    print('Введены неверные значения!')
